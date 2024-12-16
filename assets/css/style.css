@@ -547,4 +547,168 @@ body {
   margin-bottom: 0;
   font-size: 1.2rem;
   color: #555555;
+}
+
+@media only screen and (max-width: 576px) {
+  .nav__middle {
+    display: none;
+  }
+  .nav__right .contact-btn {
+    display: none;
+  }
+  .nav__right .cart-btn {
+    display: none;
+  }
+  .hero__main {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  .hero__main .hero_right {
+    display: flex;
+    justify-content: center;
+  }
+  .hero__main .hero_right .img-main-box {
+    width: 300px;
+    height: 300px;
+  }
+  .hero__main .hero_right .img-main-box > :first-child {
+    max-width: 320px;
+    right: 3px;
+  }
+  .testimonial___ .testimonial_main .testmonial_img_box .img-main .green-bg-img {
+    max-width: 280px;
+  }
+  .testimonial___ .testimonial_main .testmonial_img_box .img-main .chef-main {
+    max-width: 265px;
+  }
+  .testimonial___ .testimonial_main .testmonial_img_box .img-main {
+    margin-left: 0;
+  }
+  .hero__main .hero_right .food-small-boxes {
+    gap: 4px;
+    padding: 0.5rem;
+    justify-content: space-between;
+  }
+  .hero__main .hero_right .food-small-boxes .small-box img {
+    width: 60px;
+    height: 55px;
+  }
+  .hero__main .hero_right .food-small-boxes .small-box {
+    padding: 0.2rem 0.5rem;
+  }
+  .hero__main .hero_right .food-small-boxes .small-box .small-box-txt > :first-child {
+    font-size: 8px;
+    font-weight: 700;
+  }
+  .hero__main .hero_right .food-small-boxes .small-box .small-box-txt .star-box i {
+    font-size: 10px;
+  }
+  .hero_left {
+    padding: 2rem 1rem;
+    padding-top: 4rem;
+  }
+  .hero__main .hero_left > h2 {
+    font-size: 2rem;
+  }
+  .hero__main .hero_left > P {
+    padding: 0;
+    font-size: 1.2rem;
+  }
+  .hero__main .hero_left .hero_btns button {
+    padding: 0.5rem 0.8rem;
+    margin-right: 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .hero__main .hero_right .hot-spicy-img {
+    left: -5%;
+    max-width: 120px;
+  }
+  .popular__ {
+    padding: 0rem;
+  }
+  .popular__ .popular_heading h3 {
+    font-size: 2.5rem;
+  }
+  .popular__ .popular_card__ .popular_card .card_img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 0.2rem;
+  }
+  .popular__ .popular_card__ .popular_card {
+    padding: 12px;
+    margin: 1rem 0;
+  }
+  .popular__ .popular_card__ .popular_card .card_img img {
+    max-width: 50px;
+  }
+  .popular__ .popular_card__ .popular_card .dish-name {
+    font-size: 1.2rem;
+  }
+  .popular__ .popular_card__ {
+    padding: 1rem;
+  }
+  .slider__ .slider-header-2 .header-2-left h1 {
+    max-width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .slider__ .slider-header-1 p {
+    padding-left: 1rem;
+  }
+  .slider__ .slider-wrapper .slider-card {
+    margin: 0.5rem;
+    border: 2px solid #39DB4A;
+  }
+  .testimonial___ .testimonial_main .testimonial-right__ {
+    padding: 1rem 0;
+  }
+  .testimonial___ .testimonial_main .testimonial-right__ > :nth-child(2) {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+  .testimonial___ .testimonial_main .testimonial-right__ > :nth-child(3) {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+  .testimonial___ .testimonial_main .testimonial-right__ .review .review-img img {
+    max-width: 50px;
+  }
+  .testimonial___ .testimonial_main .testimonial-right__ .review {
+    padding-right: 0;
+    flex-wrap: wrap;
+  }
+  .testimonial___ .testimonial_main .testmonial_img_box {
+    display: flex;
+    justify-content: center;
+  }
+  .services__ .services_main__ .services_left__ > :nth-child(2) {
+    font-size: 2.5rem;
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  .services__ .services_main__ .services_left__ > :nth-child(3) {
+    max-width: 100%;
+    font-size: 16px;
+  }
+  .services__ .services_main__ .services_right__ {
+    padding: 0;
+  }
+  .footer__ .footer_main__ .footer_sub_first .footer_sub_second p {
+    max-width: 100%;
+  }
+  .footer__ .footer_main__ .footer_sub_first .footer_sub_second > h5 {
+    margin-bottom: 0.5rem;
+  }
+  .footer__ .footer_main__ .footer_sub_first .footer_sub_second ul li {
+    padding: 0.2rem 0;
+    font-size: 1rem;
+  }
+  .footer__ .footer_bottom {
+    flex-wrap: wrap;
+  }
+  .footer__ .footer_bottom .copyright_line p {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
